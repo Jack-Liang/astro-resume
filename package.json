@@ -1,11 +1,12 @@
 {
-    "name": "ovidius-astro-theme",
+    "name": "astro-resume",
     "type": "module",
     "version": "0.0.2",
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
         "build": "astro build",
+        "deploy": "wrangler deploy",
         "preview": "astro preview",
         "astro": "astro"
     },
