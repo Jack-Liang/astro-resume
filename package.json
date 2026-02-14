@@ -11,7 +11,7 @@
         "astro": "astro"
     },
     "dependencies": {
-        "@astrojs/cloudflare": "^12.6.12",
+        "@astrojs/cloudflare": "^12.6.5",
         "@astrojs/mdx": "^4.3.13",
         "@astrojs/rss": "^4.0.6",
         "@astrojs/sitemap": "^3.1.5",
@@ -23,5 +23,10 @@
         "@tailwindcss/typography": "^0.5.13",
         "prettier": "^3.3.2",
         "prettier-plugin-tailwindcss": "^0.6.2"
-    }
+    },
+    "overrides": {
+        "undici": "^7.19.0",
+        "wrangler": "^4.65.0"
+    },
+    "private": true
 }
