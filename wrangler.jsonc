@@ -1,16 +1,15 @@
 {
-	"main": "dist/_worker.js/index.js",
-	"name": "ovidius-astro-theme",
+  "main": "dist/_worker.js/index.js",
+  "name": "astro-resume",
   "compatibility_date": "2026-02-14",
   "compatibility_flags": [
     "nodejs_compat",
     "global_fetch_strictly_public"
   ],
-	"assets": {
-		"binding": "ASSETS",
-		"directory": "./dist"
-	},
-	"observability": {
+  "assets": {
+    "directory": "./dist"
+  },
+  "observability": {
     "enabled": true
   }
 }
